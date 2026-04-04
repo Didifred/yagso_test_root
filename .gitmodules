@@ -1,3 +1,7 @@
 [submodule "lib1"]
 	path = lib1
 	url = https://github.com/Didifred/yagso_test_repo_1.git
+[submodule "lib2"]
+	path = lib2
+	url = https://github.com/Didifred/yagso_test_repo_2.git
+	branch = main
