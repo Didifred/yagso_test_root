@@ -1,0 +1,13 @@
+version: '1.0'
+submodules:
+- name: lib1
+  path: lib1
+  url: https://github.com/Didifred/yagso_test_repo_1.git
+- name: lib2
+  path: lib2
+  url: https://github.com/Didifred/yagso_test_repo_2.git
+  tracking_branch: main
+  submodules:
+  - name: innerLib3
+    path: lib2/lib3
+    url: https://github.com/Didifred/yagso_test_repo_3.git
