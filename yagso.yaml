@@ -17,7 +17,7 @@ submodules:
   - origin/main
   submodules:
   - name: innerLib3
-    path: lib2/lib3
+    path: lib3
     url: https://github.com/Didifred/yagso_test_repo_3.git
     commit: 24b30f17f066915e00a7155b7eb895682308ba5e
     ref:
