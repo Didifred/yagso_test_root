@@ -14,6 +14,7 @@ submodules:
   tracking_branch: main
   ref:
   - main
+  - origin/main
   submodules:
   - name: innerLib3
     path: lib2/lib3
