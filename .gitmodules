@@ -5,3 +5,6 @@
 	path = lib2
 	url = https://github.com/Didifred/yagso_test_repo_2.git
 	branch = main
+[submodule "lib3/bis"]
+	path = lib3/bis
+	url = https://github.com/Didifred/yagso_test_repo_3.git
