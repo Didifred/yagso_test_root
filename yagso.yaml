@@ -12,7 +12,7 @@ submodules:
   name: lib2
   path: lib2
   url: https://github.com/Didifred/yagso_test_repo_2.git
-  commit: d2a6fc3da7f9a68e1f628715d16ec1e78eaf3762
+  commit: 3324a351e9b3293ec04e48a7a4003fe853896961
   tracking_branch: main
   ref:
   - main
@@ -22,6 +22,16 @@ submodules:
     name: innerLib3
     path: lib3
     url: https://github.com/Didifred/yagso_test_repo_3.git
-    commit: 24b30f17f066915e00a7155b7eb895682308ba5e
+    commit: b1d8eb09579f254095e9df259c6d1034dc646d18
+    tracking_branch: develop/YAGSO
     ref:
-    - main
+    - develop/YAGSO
+    - origin/develop/YAGSO
+- root_path: lib3/bis
+  name: lib3/bis
+  path: lib3/bis
+  url: https://github.com/Didifred/yagso_test_repo_3.git
+  commit: 568c0803b892505d5f52b3c749948d76755267fa
+  ref:
+  - main
+  - origin/main
