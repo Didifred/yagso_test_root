@@ -5,8 +5,8 @@ submodules:
   url: https://github.com/Didifred/yagso_test_repo_1.git
   commit: ddb8e804644540502551230b8a9eeb5ffe797abf
   ref:
-  - origin/main
   - '1.0'
+  - origin/main
 - name: lib2
   path: lib2
   url: https://github.com/Didifred/yagso_test_repo_2.git
