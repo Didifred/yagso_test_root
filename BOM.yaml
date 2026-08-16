@@ -1,0 +1,23 @@
+version: '1.0'
+submodules:
+- path: lib1
+  commit: ddb8e804644540502551230b8a9eeb5ffe797abf
+  ref: '1.0'
+  files:
+  - README.md
+- path: lib2
+  commit: 3324a351e9b3293ec04e48a7a4003fe853896961
+  ref: origin/main
+  files:
+  - README.md
+  submodules:
+  - path: lib3
+    commit: b1d8eb09579f254095e9df259c6d1034dc646d18
+    ref: origin/develop/YAGSO
+    files:
+    - README.md
+- path: lib3/bis
+  commit: 568c0803b892505d5f52b3c749948d76755267fa
+  ref: origin/main
+  files:
+  - README.md
