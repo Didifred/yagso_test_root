@@ -1,4 +1,4 @@
-version: '1.0'
+version: '1.1'
 submodules:
 - path: lib1
   commit: ddb8e804644540502551230b8a9eeb5ffe797abf
@@ -6,10 +6,12 @@ submodules:
   files:
   - README.md
 - path: lib2
-  commit: 3324a351e9b3293ec04e48a7a4003fe853896961
+  commit: 464c07d1d45a925f69ef62b243ccce4a4f9d2a72
   ref: origin/main
   files:
   - README.md
+  - include.h
+  - source.c
   submodules:
   - path: lib3
     commit: b1d8eb09579f254095e9df259c6d1034dc646d18
@@ -17,7 +19,9 @@ submodules:
     files:
     - README.md
 - path: lib3/bis
-  commit: 568c0803b892505d5f52b3c749948d76755267fa
+  commit: de3e45c92b6e08c5683c2f689f3ce477241ab25d
   ref: origin/main
   files:
   - README.md
+  - leaf.c
+  - leaf.h
